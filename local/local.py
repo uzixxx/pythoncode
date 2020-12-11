@@ -29,7 +29,7 @@ def log(prefix):
 @log('DEBUG')
 def query(sql):
     
-    host = "localhost"  # 数据库ip
+    host = "192.168.1.199"  # 数据库ip
     port = "1521"   # 端口
     sid = "orcl"  # 数据库名称
     dsn = cx_Oracle.makedsn(host, port, sid)

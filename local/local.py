@@ -82,3 +82,5 @@ if cmd == '1':
     results.to_csv('单据.csv', index=False, header=True,encoding="gbk")
 else:
     pass
+
+

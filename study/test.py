@@ -1,4 +1,4 @@
-if 0:
-    print(0)
-else:
-    print(1)
+title = 'Alice in\n'
+title += 'Wonderland.'
+print(title)
+print(title.split())

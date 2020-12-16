@@ -1,6 +1,7 @@
 import unittest
 from name_function import get_formatted_name
 
+
 class NamesTestCase(unittest.TestCase):
     """Tests for 'name_function.py'."""
     
@@ -14,4 +15,4 @@ class NamesTestCase(unittest.TestCase):
         self.assertEqual(formatted_name, 'Wolfgang Amadeus Mozart')
             
 
-unittest.main()
+unittest.main

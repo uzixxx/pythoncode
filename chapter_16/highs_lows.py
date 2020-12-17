@@ -12,7 +12,7 @@ with open(filename) as f:
 
     dates, highs = [], []
     for row in reader:
-        current_date = datetime.strptime(row[0], "%Y-%m-%d")
+        current_date = datetime.strptime(row[0], "%Y/%m/%d")
         dates.append(current_date)
         high = int(row[1])
         highs.append(high)

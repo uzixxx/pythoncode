@@ -27,5 +27,3 @@ with open(filename) as f:
     plt.tick_params(axis='both', which='major', labelsize=16)
 
     plt.show()
-
-    # print(highs)

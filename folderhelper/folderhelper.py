@@ -15,9 +15,7 @@ def file_content(filename, sheet_name):
 
 
 temp_file = file_content("folder_link.xlsx", "Link")
-name_link = {}
-button_list = []
-event_list = []
+name_link, button_list, event_list = {}, [], []
 for i in temp_file:
     name_link.update({i['Name']: i['Link']})
 name_list = sorted(name_link.keys())

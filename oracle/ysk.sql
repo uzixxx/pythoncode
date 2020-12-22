@@ -1,0 +1,1 @@
+select '_'||t.yybh yybh, t.yymc, '_'||t.ysbh ysbh, t.ysmc from DW_ZD_YSK_NEW t

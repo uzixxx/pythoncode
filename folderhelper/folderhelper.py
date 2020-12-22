@@ -32,7 +32,7 @@ for i in range(len(name_list)):
 for i in range(len(name_list)):
     button_list[i].Bind(wx.EVT_BUTTON, event_list[i])
 for i in range(len(name_list)):
-    vbox.Add(button_list[i], proportion=0, flag=wx.EXPAND | wx.ALIGN_CENTER)
+    vbox.Add(button_list[i], 0, wx.EXPAND | wx.ALIGN_CENTER)
 scroll.SetSizer(vbox)
 frame.Show()
 app.MainLoop()

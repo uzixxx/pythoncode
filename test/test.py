@@ -1,10 +1,6 @@
-import wx
+x = [1, 2, 3, 4, 5, 6]
+y = [0, 1, 0, 0, 1, 1]
+z = [0, 1, 0, 0, 1, 1]
+v = [0, 1, 0, 0, 1, 1]
 
-app = wx.App()
-frame = wx.Frame(None, title="MD5加密工具", size=(800, 600))
-panel = wx.Panel(frame)
-
-label1 = wx.StaticText(panel, -1, u'待加密字符串: ', pos=(0, 50), size=(80, 30), style=wx.ALIGN_RIGHT)
-
-frame.Show()
-app.MainLoop()
+print(list(zip(x, y, z, v)))
